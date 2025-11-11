@@ -1,3 +1,17 @@
+## [IEEE TIP] Duplex Rewards Optimization for Test-Time Composed Image Retrieval [![paper](https://img.shields.io/badge/Paper-87CEEB)](https://doi.org/10.1109/TIP.2025.3628454) <br> 
+*Haoliang Zhou, Feifei Zhang, Changsheng Xu* <br> 
+
+##
+
+## Abstract <br>
+Recent research in continual learning has primarily focused on unimodal tasks, with limited attention to multimodal tasks such as Composed Image Retrieval (CIR). In this paper, we establish a novel Continual CIR setting named C$^2$IR to simulate the ever-change retrieval demands in the real world. Using the C$^2$IR setting, we identify two significant challenges: intra-task correspondence uncertainty, which hinders the model's ability to manage noisy query-target pair correspondences; and inter-task drift uncertainty, which impedes the model's consistent understanding of relationships, exacerbating catastrophic forgetting across continual tasks. To address these challenges, we propose a Dual Uncertainty-aware Correspondence Adapting and Retaining (U$^2$CAR) framework for C$^2$IR, which leverages uncertainty learning to acquire and consolidate composed correspondence. To ensure reliable composed correspondence inference in each task, we introduce an Uncertainty-based Correspondence Reasoning (UCR) module that estimates and refines the uncertainty in query-target correspondence. Besides, to mitigate catastrophic forgetting of previous tasks, we design an Uncertainty-guided Re-parameterization (URep) paradigm that consolidates valuable composed correspondence knowledge based on the uncertainty variance across various tasks. Extensive experimental results illustrate that our U$^2$CAR significantly outperforms existing methods, demonstrating the robust adaptability and anti-forgetting capabilities of the proposed approach.
+
+<p align="center">
+<img src="https://github.com/HaoliangZhou/U2CAR/blob/master/u2car.png" width=100% height=100% 
+class="center">
+</p>
+
+
 ## Setup and Environments
 - Basic environments
 ```
