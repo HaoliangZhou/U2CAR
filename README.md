@@ -124,3 +124,23 @@ CL-FIQ&Shoe is annotated on `FashionIQ` and `Shoes` images:
     sh seq_xxx.sh
     ```
 4. The corresponding training log will be written in the `logger` folder.
+
+---
+## Cite Our Work
+If you find our work helps, please cite our paper.
+```
+@ARTICLE{Zhou2025U2CAR,
+  author={Zhou, Haoliang and Zhang, Feifei and Xu, Changsheng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Dual Uncertainty-Aware Correspondence Adapting and Retaining for Continual Composed Image Retrieval}, 
+  year={2025},
+  volume={34},
+  pages={7627-7641},
+  doi={10.1109/TIP.2025.3628454}
+}
+
+``` 
+
+---
+## Contact
+For any questions, welcome to create an issue or email to <a href="mailto:haoliangzhou6@gmail.com">haoliangzhou6@gmail.com</a>.
