@@ -2,7 +2,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 from models.vit import VisionTransformer, interpolate_pos_embed
-from models.vit_l2p import VisionTransformer as L2P_VisionTransformer
 from transformers import BertTokenizer
 
 import torch
